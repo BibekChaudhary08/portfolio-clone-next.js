@@ -81,7 +81,7 @@ const Hero = () => {
       <img
         src="https://arnicopanday.com/wp-content/uploads/2023/03/arnico-logo-black-300x234.png"
         alt="Arniko Logo"
-        style={{ filter: "invert(100%) brightness(200%)", width: "400px", height: "auto" }}
+        style={{ width: "400px", height: "auto" }}
       />
     </h1>
     <p className="mt-6 text-lg leading-8 font-bold">

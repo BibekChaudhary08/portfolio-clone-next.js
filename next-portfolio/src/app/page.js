@@ -1,6 +1,7 @@
 import Hero from "@/components/hero/Hero"
 import Expertise from "../components/expertise/Expertise"
 import Hobbies from "@/components/hobbies/Hobbies"
+import Footer from "@/components/footer/Footer"
 
 const Home = () => {
   return(
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <Expertise />
       <Hobbies />
+      <Footer />
     </div>
   )
 }
