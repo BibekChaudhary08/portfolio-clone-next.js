@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.underline-center {
+  position: relative;
+}
+
+.underline-center::after {
+  @apply block w-1/12 h-0.5 bg-black mx-auto absolute left-0 right-0;
+  content: '';
+  bottom: -1.5rem;
+}
